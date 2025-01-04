@@ -1,0 +1,45 @@
+:root {
+  --bg-shade: #eeeffb;
+  --Grey-Text: #151875;
+  --Accent: #fb2e86;
+  --white: #ffffff;
+  --Liner-bg: linear-gradient(45dag, #f3f9ff, #f1f0ff);
+  --Blue-gradiant: linear-gradient(45dag, #1389ff, #1db4e7);
+  --pink-gradiant: linear-gradient(45dag, #fa3be5, #ff289f);
+  --sky-blue-gradiant: linear-gradient(45dag, #46d9ff, #19a5f9);
+  --mint-green-gradiant: linear-gradient(45dag, #36e6d5, #29e871);
+  --ugsadug: #9f63b5;
+  --Text: #151875;
+  --sky-blue: #00c1fe;
+  --section-hover: #2f1ac4;
+  --sale-tage-coloe: #3f509e;
+  --PRICE-TAG-COLOR: #fb2448;
+  --violet: #7e33e0;
+  --sub-text-color: linear-gradient(45dag #f3f9ff, #f1f0ff);
+  --sub-text-color: #8a8fb9;
+  --page-button-color: #e0d3f5;
+  --pink: #fb2e86;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-size: 60%;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* padding: 1rem 5% 2rem; */
+  backdrop-filter: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  z-index: 5;
+}
