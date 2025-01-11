@@ -1,0 +1,127 @@
+:root {
+  --bg-shade: #eeeffb;
+  --Grey-Text: #151875;
+  --Accent: #fb2e86;
+  --white: #ffffff;
+  --Liner-bg: linear-gradient(45dag, #f3f9ff, #f1f0ff);
+  --Blue-gradiant: linear-gradient(45dag, #1389ff, #1db4e7);
+  --pink-gradiant: linear-gradient(45dag, #fa3be5, #ff289f);
+  --sky-blue-gradiant: linear-gradient(45dag, #46d9ff, #19a5f9);
+  --mint-green-gradiant: linear-gradient(45dag, #36e6d5, #29e871);
+  --ugsadug: #9f63b5;
+  --Text: #151875;
+  --sky-blue: #00c1fe;
+  --section-hover: #2f1ac4;
+  --sale-tage-coloe: #3f509e;
+  --PRICE-TAG-COLOR: #fb2448;
+  --violet: #7e33e0;
+  --sub-text-color: linear-gradient(45dag #f3f9ff, #f1f0ff);
+  --sub-text-color: #8a8fb9;
+  --page-button-color: #e0d3f5;
+  --pink: #fb2e86;
+}
+
+.featured {
+  display: block;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.featured-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured-titil h1 {
+  color: #1a0b5b;
+  font-family: "Josefin Sans", serif;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.freatured-con {
+  width: 200px;
+  height: 300px;
+  gap: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  /* background: #f6f7fb; */
+  /* border: 1px solid black; */
+}
+.freatured-con p,
+h3 {
+  margin-top: 3px;
+}
+
+.img {
+  width: 198px;
+  height: 220px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: #f6f7fb;
+
+  /* border: 1px solid black; */
+}
+
+.img img {
+  width: 150px;
+  height: 150px;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+}
+
+.green {
+  width: 14px;
+  margin: 3px;
+  height: 4px;
+  background-color: #05e6b7;
+}
+
+.pink {
+  width: 14px;
+  height: 4px;
+  margin: 3px;
+
+  background-color: #f701a8;
+}
+.blue {
+  width: 14px;
+  height: 4px;
+  margin: 3px;
+  background-color: #00009d;
+}
+
+.last-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #febad7; */
+}
+
+.last-bottom {
+  width: 24px;
+  height: 4px;
+  margin: 3px;
+  background-color: #febad7;
+}
+.last-bottom- {
+  width: 24px;
+  height: 4px;
+  margin: 3px;
+  background-color: #febad7;
+}
+
+.last-bottom- {
+  background-color: #fb2e86;
+}
