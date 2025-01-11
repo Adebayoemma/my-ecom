@@ -17,10 +17,10 @@ function Headingbar() {
       {/* <div className="item"> */}
       {/* <p>mhhasanul@gmail.com</p> */}
       <div className="cont">
-        <CiMail size={8} />
+        <CiMail size={9} />
 
         <p>mhhasanul@gmail.com</p>
-        <LuPhoneCall size={8} />
+        <LuPhoneCall size={9} />
 
         <p>(12345)67890</p>
       </div>
@@ -44,11 +44,12 @@ function Headingbar() {
           <button className="btn">Login</button>
         </div>
 
-        <div>
+        <div className="btn-right">
           <button className="btn">Wishlist</button>
-          <CiHeart />
-
-          <FiShoppingCart />
+          <CiHeart size={15} />
+        </div>
+        <div className="icons">
+          <FiShoppingCart size={15} />
         </div>
       </div>
       {/* </div> */}
