@@ -1,0 +1,79 @@
+:root {
+  --bg-shade: #eeeffb;
+  --Grey-Text: #151875;
+  --Accent: #fb2e86;
+  --white: #ffffff;
+  --Liner-bg: linear-gradient(45dag, #f3f9ff, #f1f0ff);
+  --Blue-gradiant: linear-gradient(45dag, #1389ff, #1db4e7);
+  --pink-gradiant: linear-gradient(45dag, #fa3be5, #ff289f);
+  --sky-blue-gradiant: linear-gradient(45dag, #46d9ff, #19a5f9);
+  --mint-green-gradiant: linear-gradient(45dag, #36e6d5, #29e871);
+  --ugsadug: #9f63b5;
+  --Text: #151875;
+  --sky-blue: #00c1fe;
+  --section-hover: #2f1ac4;
+  --sale-tage-coloe: #3f509e;
+  --PRICE-TAG-COLOR: #fb2448;
+  --violet: #7e33e0;
+  --sub-text-color: linear-gradient(45dag #f3f9ff, #f1f0ff);
+  --sub-text-color: #8a8fb9;
+  --page-button-color: #e0d3f5;
+  --pink: #fb2e86;
+}
+
+.shoper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--Text);
+}
+
+.shoper-img {
+  display: flex;
+  /* border: 1px solid black; */
+}
+.shope-offer {
+  display: grid;
+  width: 210px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  gap: 15px;
+  text-align: center;
+  box-shadow: 0 0 25px var(--sub-text-color);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  /* border: 1px solid black; */
+}
+
+.shope-offer img {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.shope-offer-text {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 85px;
+  /* margin-left: 25px; */
+  /* border: 1px solid black; */
+}
+
+.shope-offer-text p {
+  font-size: 30;
+  font-weight: 500;
+  color: var(--sub-text-color);
+}
+
+.shope-offer-text h4 {
+  font-size: 30;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
