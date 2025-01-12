@@ -1,0 +1,76 @@
+:root {
+  --bg-shade: #eeeffb;
+  --Grey-Text: #151875;
+  --Accent: #fb2e86;
+  --white: #ffffff;
+  --Liner-bg: linear-gradient(45dag, #f3f9ff, #f1f0ff);
+  --Blue-gradiant: linear-gradient(45dag, #1389ff, #1db4e7);
+  --pink-gradiant: linear-gradient(45dag, #fa3be5, #ff289f);
+  --sky-blue-gradiant: linear-gradient(45dag, #46d9ff, #19a5f9);
+  --mint-green-gradiant: linear-gradient(45dag, #36e6d5, #29e871);
+  --ugsadug: #9f63b5;
+  --Text: #151875;
+  --sky-blue: #00c1fe;
+  --section-hover: #2f1ac4;
+  --sale-tage-coloe: #3f509e;
+  --PRICE-TAG-COLOR: #fb2448;
+  --violet: #7e33e0;
+  --sub-text-color: linear-gradient(45dag #f3f9ff, #f1f0ff);
+  --sub-text-color: #8a8fb9;
+  --page-button-color: #e0d3f5;
+  --pink: #fb2e86;
+}
+.nav-bar-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  gap: 15px;
+  width: 900px;
+  height: 40px;
+  /* border: 1px solid black; */
+}
+
+.nav-items {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  display: flex;
+  margin: auto;
+  gap: 15px;
+}
+
+.btn button {
+  background: none;
+}
+
+.nav-manu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  gap: 10px;
+}
+
+.nav-bar-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 300px; */
+  background: #e7e6ef;
+}
+.nav-bar-input input {
+  background: #e7e6ef;
+}
+.seach-icon {
+  /* border: 1px solid black; */
+  background: var(--Accent);
+}
+.seach-icon img {
+  width: 24px;
+  height: 24px;
+}
