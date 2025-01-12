@@ -1,0 +1,118 @@
+:root {
+  --bg-shade: #eeeffb;
+  --Grey-Text: #151875;
+  --Accent: #fb2e86;
+  --white: #ffffff;
+  --Liner-bg: linear-gradient(45dag, #f3f9ff, #f1f0ff);
+  --Blue-gradiant: linear-gradient(45dag, #1389ff, #1db4e7);
+  --pink-gradiant: linear-gradient(45dag, #fa3be5, #ff289f);
+  --sky-blue-gradiant: linear-gradient(45dag, #46d9ff, #19a5f9);
+  --mint-green-gradiant: linear-gradient(45dag, #36e6d5, #29e871);
+  --ugsadug: #9f63b5;
+  --Text: #151875;
+  --sky-blue: #00c1fe;
+  --section-hover: #2f1ac4;
+  --sale-tage-coloe: #3f509e;
+  --PRICE-TAG-COLOR: #fb2448;
+  --violet: #7e33e0;
+  --sub-text-color: linear-gradient(45dag #f3f9ff, #f1f0ff);
+  --sub-text-color: #8a8fb9;
+  --page-button-color: #e0d3f5;
+  --pink: #fb2e86;
+}
+
+.leatest {
+  width: 100%;
+  margin-top: 40px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  /* color: aqua; */
+}
+
+.leatest h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #1a0b5b;
+  font-family: "Josefin Sans", serif;
+  pointer-events: none;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.leatest-menu {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  color: #1a0b5b;
+  font-family: "Josefin Sans", serif;
+  font-size: 10px;
+  font-weight: 800;
+  /* justify-content: space-around; */
+  /* gap: 5px; */
+}
+
+.leatest-menu p {
+  pointer-events: none;
+  margin: 15px;
+}
+/* :hover.leatest-menu {
+  color: var(--pink);
+} */
+
+.leatest-image {
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.leatest-image-border {
+  width: 300px;
+  height: 300px;
+  /* display: grid; */
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  /* background: #f6f7fb; */
+  /* border: 1px solid black; */
+}
+.leatest-img {
+  width: 300px;
+  height: 278px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: #f6f7fb;
+}
+.leatest-img img {
+  width: 100%;
+}
+
+.leatest-img-text {
+  display: flex;
+  align-items: center;
+  color: var(--Text);
+  justify-content: space-around;
+  /* text-align: center; */
+}
+.leatest-img-text p {
+  margin-right: auto;
+  pointer-events: none;
+  border-bottom: 1px solid #f6f7fb;
+}
+
+.leatest-img-text h4 {
+  margin-right: 10px;
+  color: #fb2448;
+  pointer-events: none;
+}
+
+.leatest-img-text h3 {
+  margin-right: 10px;
+  pointer-events: none;
+}
