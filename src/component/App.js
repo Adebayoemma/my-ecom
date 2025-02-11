@@ -6,7 +6,9 @@ import Promotional from "./promotional/promotional";
 import Featured from "./featured/featured";
 import Leatest from "./leatest/leatest";
 import Shoper from "./shoper/shoper";
-
+import Unique from "./unique/unique";
+import Trending from "./trending/trending";
+import Discount from "./discount/discount";
 function App() {
   return (
     <div>
@@ -16,6 +18,9 @@ function App() {
       <Featured />
       <Leatest />
       <Shoper />
+      <Unique />
+      <Trending />
+      <Discount />
     </div>
   );
 }
